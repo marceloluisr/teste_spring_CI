@@ -22,7 +22,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/alunos")
 public class AlunoController {
     @Autowired
-    private AlunoService alunoService;
+    private AlunoService alunoService
 
     @RequestMapping("/novo")
     public ModelAndView novo() {
