@@ -63,11 +63,11 @@ public class Aluno {
     public void setAnoIngresso(Long anoIngresso) {
         this.anoIngresso = anoIngresso;
     }
-
+/*
     public String getNomeCurso() {
         return nomeCurso;
     }
-
+*/
     public void setNomeCurso(String nomeCurso) {
         this.nomeCurso = nomeCurso;
     }
