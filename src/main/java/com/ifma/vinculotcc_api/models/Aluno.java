@@ -24,7 +24,7 @@ public class Aluno {
     private Long anoIngresso;
     private String nomeCurso;
 
-    //@Enumerated(EnumType.STRING) // TODDO enum Periodo refatorado
+    //@Enumerated(EnumType.STRING) // TODDO enum Periodo 
     @Enumerated(EnumType.ORDINAL)
     private PeriodoAluno periodo;
 
