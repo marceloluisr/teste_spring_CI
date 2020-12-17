@@ -12,10 +12,7 @@ import org.springframework.stereotype.Repository;
 public interface AlunoRepository extends JpaRepository<Aluno, Long> {
      Iterable<Aluno> findByNome(String nome);
      
-     /*
-     @Query("SELECT a FROM Aluno a WHERE a.tcc.id_tcc = ?1")
-     Optional<Aluno> findAlunoTccById(Long id);
-     */
+    
 
      @Query("SELECT a FROM Aluno a WHERE a.matricula = ?1")
 	Optional<Aluno> buscarUmPorMatricula(String matricula);
